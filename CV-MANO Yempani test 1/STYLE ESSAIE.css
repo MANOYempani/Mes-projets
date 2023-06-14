@@ -1,0 +1,84 @@
+body{
+    border: solid 1px black;
+    width: 90%;
+    margin:auto ;
+}
+
+.block{
+    display: grid;
+    grid-template-columns: 30% 1% 69%;
+    height: 100%;
+}
+
+.block1{
+    background: black;
+    padding-bottom: 70%;
+    padding: 5%;
+}
+
+.block2{
+    background: orange;
+}
+
+.block3{
+    background: white;
+    padding: 4%;
+    margin-right: 27%;
+}
+
+span{
+    padding: 2%;
+}
+
+.profileimg {
+    border-radius: 50%;
+    border: solid 5px white;
+    width: 200px;
+    height:200px;
+    margin: 5% 20% 5% 20%;
+}
+
+.nomprofile{
+    text-align: center;
+    color: white;
+    text-decoration-style: double;
+    font-size: larger;
+}
+
+.table{
+    width: 100%;
+}
+
+.iconeprofile{
+    width: 50px;
+    height: 50px;
+    padding: 7%;
+    float: right;
+    /* margin-right: 30%; */
+}
+
+/* progress{
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radiu: 0%;
+    background-color: white;
+    margin: 10px;
+}
+progress::-webkit-progress-bar{
+    border-radius: 5px;
+    background-color: white;
+}
+
+progress::-webkit-progress-value{
+    border-radius: 5px;
+    background-image: linear-gradient(to right, rgb(166, 236, 75), orange);
+} */
+.ip{
+    font-weight: 700;
+}
+
+.ref{
+    float: right;
+    margin-left: 30%;
+}
